@@ -1,8 +1,12 @@
 # Multiple Linear Regression via Cramer's Rule — Excel Implementation
 
-This repository contains the Microsoft Excel workbook and datasets used in the article:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504088.svg)](https://doi.org/10.5281/zenodo.24504088)
 
-> A. C. Frobenius and F. X. W. Y. Untoro, "*[article title]*," *[journal name]*, [year]. DOI: [to be added]
+This repository contains the Microsoft Excel workbooks and datasets used in the article:
+
+> A. C. Frobenius and F. X. W. Y. Untoro, "*[article title]*," *[journal name]*, [year] (under review).
+
+Archived version: https://doi.org/10.5281/zenodo.24504088
 
 The workbook fits a multiple linear regression model with two predictors,
 
@@ -16,13 +20,13 @@ using the least-squares normal equations solved with Cramer's rule (determinants
 |---|---|
 | `mlr_cramer_rule.xlsx` | Excel workbook loaded with the main training dataset (observations 1–5) |
 | `mlr_cramer_rule_second_training_set.xlsx` | Same workbook loaded with the second training dataset (10 observations) and the new input (2000, 24) |
+| `README.md` | This file |
 
 Both workbooks use only built-in worksheet functions (no macros) and have three sheets:
 
 - `DATASET +`: training data input and prediction input/output
 - `PROSES +`: sums, matrices A–A3, determinants, and coefficients
 - `EVALUATION`: training fit, ANOVA, coefficient t-tests, and prediction errors on the five test datasets (Table XVII of the article)
-| `README.md` | This file |
 
 ## Requirements
 
@@ -134,17 +138,17 @@ New input: (X1, X2) = (2000, 24). Reference value: Y = 2024.
 
 ## Citation
 
-If you use this workbook, please cite the article above and this repository:
+If you use this workbook, please cite the article above and the archived version of this repository:
 
 ```
-A. C. Frobenius and F. X. W. Y. Untoro, "Multiple linear regression via Cramer's rule — Excel implementation," GitHub/Zenodo, [year]. DOI: [Zenodo DOI]
+A. C. Frobenius and F. X. W. Y. Untoro, "ML_Pattern_Modeling: Excel workbooks and datasets for multiple linear regression via Cramer's rule," Zenodo, version V0.01, Nov. 2026, doi: 10.5281/zenodo.24504088.
 ```
 
 ## License
 
-[e.g., CC BY 4.0 — choose a license before publishing]
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ## Contact
 
-- Arvin Claudy Frobenius — arvinclaudy@amikom.ac.id
-- F. X. Wisnu Yudo Untoro — wisnuyudo@uwks.ac.id
+- Arvin Claudy Frobenius, Universitas Amikom Yogyakarta — arvinclaudy@amikom.ac.id
+- F. X. Wisnu Yudo Untoro, Universitas Wijaya Kusuma Surabaya — wisnuyudo@uwks.ac.id
